@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/asynchronousGet"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="false"
+        android:text="Asynchronous GET"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/synchronousGet"
+        android:layout_centerHorizontal="false"
+        android:layout_below="@+id/asynchronousGet"
+        android:text="Synchronous GET"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/asynchronousPost"
+        android:layout_below="@+id/synchronousGet"
+        android:layout_centerHorizontal="false"
+        android:text="Asynchronous POST"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/asynchronousPost"
+        android:layout_centerHorizontal="false"
+        android:id="@+id/txtString" />
+
+
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="192dp"
+        android:layout_height="192dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="200dp"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+    android:layout_width="192dp"
+    android:layout_height="192dp"
+    android:layout_marginTop="200dp"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+    android:layout_width="192dp"
+    android:layout_height="192dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="200dp"/>
+
+    <Button
+        android:id="@+id/cameraBtn"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="-2dp"
+        android:background="@color/purple_200"
+        android:text="Capture Image"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/clearBtn"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginTop="75dp"
+        android:background="@color/purple_200"
+        android:text="Clear Images"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+</RelativeLayout>
